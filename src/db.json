@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": "PB001",
+      "name": "Classic Croissant",
+      "category": "Bakery",
+      "price": 1800,
+      "in_stock": true,
+      "ingredients": ["Flour", "Butter", "Yeast", "Sugar"],
+      "image": "https://example.com/croissant.jpg"
+    },
+    {
+      "id": "PB002",
+      "name": "Chocolate Croissant",
+      "category": "Bakery",
+      "price": 2200,
+      "in_stock": true,
+      "ingredients": ["Flour", "Butter", "Chocolate", "Yeast"],
+      "image": "https://example.com/choco-croissant.jpg"
+    },
+    {
+      "id": "PB003",
+      "name": "Cinnamon Roll",
+      "category": "Bakery",
+      "price": 2500,
+      "in_stock": true,
+      "ingredients": ["Flour", "Cinnamon", "Butter", "Sugar"],
+      "image": "https://example.com/cinnamon-roll.jpg"
+    },
+    {
+      "id": "PB004",
+      "name": "Vanilla Donut",
+      "category": "Donuts",
+      "price": 1500,
+      "in_stock": true,
+      "ingredients": ["Flour", "Sugar", "Vanilla", "Yeast"],
+      "image": "https://example.com/vanilla-donut.jpg"
+    },
+    {
+      "id": "PB005",
+      "name": "Chocolate Donut",
+      "category": "Donuts",
+      "price": 1700,
+      "in_stock": true,
+      "ingredients": ["Flour", "Chocolate", "Sugar"],
+      "image": "https://example.com/choco-donut.jpg"
+    },
+    {
+      "id": "PB006",
+      "name": "Strawberry Donut",
+      "category": "Donuts",
+      "price": 1700,
+      "in_stock": false,
+      "ingredients": ["Flour", "Sugar", "Strawberry Glaze"],
+      "image": "https://example.com/strawberry-donut.jpg"
+    },
+    {
+      "id": "PB007",
+      "name": "Red Velvet Cupcake",
+      "category": "Cupcakes",
+      "price": 2000,
+      "in_stock": true,
+      "ingredients": ["Cocoa", "Butter", "Flour", "Cream Cheese"],
+      "image": "https://example.com/red-velvet.jpg"
+    },
+    {
+      "id": "PB008",
+      "name": "Chocolate Cupcake",
+      "category": "Cupcakes",
+      "price": 2000,
+      "in_stock": true,
+      "ingredients": ["Cocoa", "Flour", "Sugar"],
+      "image": "https://example.com/choco-cupcake.jpg"
+    },
+    {
+      "id": "PB009",
+      "name": "Vanilla Cupcake",
+      "category": "Cupcakes",
+      "price": 1900,
+      "in_stock": true,
+      "ingredients": ["Vanilla", "Flour", "Butter", "Sugar"],
+      "image": "https://example.com/vanilla-cupcake.jpg"
+    },
+    {
+      "id": "PB010",
+      "name": "Banana Bread",
+      "category": "Loaves",
+      "price": 3500,
+      "in_stock": true,
+      "ingredients": ["Banana", "Flour", "Eggs", "Sugar"],
+      "image": "https://example.com/banana-bread.jpg"
+    },
+    {
+      "id": "PB011",
+      "name": "Chocolate Chip Cookies",
+      "category": "Cookies",
+      "price": 2500,
+      "in_stock": true,
+      "ingredients": ["Flour", "Chocolate Chips", "Sugar"],
+      "image": "https://example.com/cookies.jpg"
+    },
+    {
+      "id": "PB012",
+      "name": "Oatmeal Raisin Cookies",
+      "category": "Cookies",
+      "price": 2300,
+      "in_stock": true,
+      "ingredients": ["Oats", "Raisins", "Sugar"],
+      "image": "https://example.com/oatmeal-cookies.jpg"
+    },
+    {
+      "id": "PB013",
+      "name": "Blueberry Muffin",
+      "category": "Muffins",
+      "price": 2200,
+      "in_stock": false,
+      "ingredients": ["Blueberries", "Flour", "Eggs"],
+      "image": "https://example.com/blueberry-muffin.jpg"
+    },
+    {
+      "id": "PB014",
+      "name": "Chocolate Muffin",
+      "category": "Muffins",
+      "price": 2200,
+      "in_stock": true,
+      "ingredients": ["Cocoa", "Flour", "Sugar"],
+      "image": "https://example.com/choco-muffin.jpg"
+    },
+    {
+      "id": "PB015",
+      "name": "Vanilla Muffin",
+      "category": "Muffins",
+      "price": 2000,
+      "in_stock": true,
+      "ingredients": ["Flour", "Eggs", "Vanilla"],
+      "image": "https://example.com/vanilla-muffin.jpg"
+    },
+    {
+      "id": "PB016",
+      "name": "Cheese Danish",
+      "category": "Bakery",
+      "price": 2800,
+      "in_stock": true,
+      "ingredients": ["Cream Cheese", "Flour", "Butter"],
+      "image": "https://example.com/cheese-danish.jpg"
+    },
+    {
+      "id": "PB017",
+      "name": "Apple Pie Slice",
+      "category": "Pies",
+      "price": 3000,
+      "in_stock": true,
+      "ingredients": ["Apple", "Flour", "Cinnamon"],
+      "image": "https://example.com/apple-pie.jpg"
+    },
+    {
+      "id": "PB018",
+      "name": "Meat Pie",
+      "category": "Savory",
+      "price": 1200,
+      "in_stock": true,
+      "ingredients": ["Flour", "Beef", "Carrots", "Potatoes"],
+      "image": "https://example.com/meat-pie.jpg"
+    },
+    {
+      "id": "PB019",
+      "name": "Chicken Pie",
+      "category": "Savory",
+      "price": 1500,
+      "in_stock": true,
+      "ingredients": ["Chicken", "Flour", "Butter"],
+      "image": "https://example.com/chicken-pie.jpg"
+    },
+    {
+      "id": "PB020",
+      "name": "Sausage Roll",
+      "category": "Savory",
+      "price": 1000,
+      "in_stock": true,
+      "ingredients": ["Sausage", "Flour", "Butter"],
+      "image": "https://example.com/sausage-roll.jpg"
+    }
+  ]
+}
