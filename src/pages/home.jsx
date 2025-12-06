@@ -10,7 +10,7 @@ function Home() {
     <>
      <Hero/>
      <BestSelling/>
-     <ExploreProducts />
+     <ExploreProducts showAll={true} />
      <Advertisment/>
     </>
   )

@@ -10,8 +10,10 @@ import { IoSearchOutline } from "react-icons/io5";
 
 function NavBar() {
   return (
-    <>
-    <nav className='flex justify-between px-16 py-8 bg-pink-300'>
+    < >
+
+   <div className='relative'>
+    <nav className='flex justify-between px-16 py-8 bg-pink-300  static items-center '>
    
       <div>
         <p className='text-red-900 text-2xl font-extrabold'>Special's Cuisine</p>
@@ -26,6 +28,8 @@ function NavBar() {
                 <li><NavLink to={'/about'}>About</NavLink></li>
                 
                 <li><NavLink to={'/signUp'}>Sign Up</NavLink></li>
+                
+                <li><NavLink to={'/admin'}>Admin</NavLink></li>
             </ul>
         </div>
 
@@ -37,6 +41,8 @@ function NavBar() {
       </div>
 
     </nav>
+   </div>
+    
     </>
   )
 }

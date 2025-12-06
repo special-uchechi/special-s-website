@@ -1,26 +1,32 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
+import { Link, Links } from 'react-router';
 
 const menuBarArray = [
     {
         p:"Foods",
-        icon: <IoIosArrowForward />
+        icon: <IoIosArrowForward />,
+        url:"/food"
     },
     {
         p:"Pastries",
-        icon: <IoIosArrowForward />
+        icon: <IoIosArrowForward />,
+        url:"/pastries"
     },
     {
         p:"Drinks",
-        icon: <IoIosArrowForward />
+        icon: <IoIosArrowForward />,
+        url:"/drinks"
     },
     {
         p:"Ice Creams",
-        icon: <IoIosArrowForward />
+        icon: <IoIosArrowForward />,
+        url:"/iceCream"
     },
     {
         p:"Special Request",
-        icon: <IoIosArrowForward />
+        icon: <IoIosArrowForward />,
+        url:"/specialRequest"
     }
 ] 
 
@@ -29,10 +35,10 @@ function MenuBar() {
     <>
      
        {menuBarArray.map((items, index)=>(
-        <div key={index} className='flex justify-between items-center border-b mx-8 w-[300px] pt-8 hover:bg-gray-200 cursor-pointer'>
+        <Link to={items.url} key={index} className='flex justify-between items-center border-b mx-8 w-[300px] pt-8 hover:bg-gray-200 cursor-pointer'>
             <p>{items.p}</p>
             <span>{items.icon}</span>
-        </div>
+        </Link>
        ))}
      
     </>

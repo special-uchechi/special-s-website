@@ -1,10 +1,12 @@
 import React from 'react'
 import AdminDashboard from '../Components/AdminDashboard'
 
-const Contact = () => {
+function Admin() {
   return (
-    <div></div>
+    <>
+     <AdminDashboard/>
+    </>
   )
 }
 
-export default Contact
+export default Admin
