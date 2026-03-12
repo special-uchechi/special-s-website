@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 function AdminForm() {
-  const [image, setImage]= useState("")
+const [image, setImage]= useState("")
 const [name, setName]= useState("")
 const [category, setCategory]= useState("")
 const [ingredients, setIngredients]= useState("")
@@ -29,7 +29,7 @@ const handleSubmit = async (e)=>{
         body: JSON.stringify(newProduct)
       })
        if (!response.ok) {
-        throw new Error("coukd not post new job")
+        throw new Error("could not post new job")
       }
       const data = await response.json()
       console.log(data)
@@ -56,8 +56,8 @@ const handleSubmit = async (e)=>{
             <option value="Food">Food</option>
             <option value="Pastries">Pastries</option>
             <option value="Drinks">Drinks</option>
-            <option value="Ice Creams">Ice Creams</option>
-            <option value="Special Request">Special Request</option>
+            <option value="IceCream">Ice Creams</option>
+            <option value="SpecialRequest">Special Request</option>
           </select>
                {console.log(category)}
 

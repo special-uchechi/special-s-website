@@ -55,14 +55,14 @@ function Footer() {
   return (
     <>
      
-     <section className='container mx-auto bg-white'>
+     <section className='container mx-auto bg-whit'>
         
         
-        <div className='bg-black flex justify-between border-white'>
+        <div className='bg-black lg:flex justify-between border-white'>
 
        { footerArray.map((item, index) => (
-          <div key={index} className='text-white p-8'>
-            <h3 className='font-bold text-lg mb-4 text-red-400'>{item.h3}</h3>
+          <div key={index} className='text-white p-4 lg:p-8'>
+            <h3 className='font-bold text-lg lg:mb-4 text-red-400'>{item.h3}</h3>
             <p className='mb-2'>{item.p1}</p>
             <p className='mb-2'>{item.p2}</p>
             <p className='mb-2'>{item.p3}</p>

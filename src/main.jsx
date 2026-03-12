@@ -10,12 +10,10 @@ import About from './pages/about.jsx'
 import SignUp from './pages/signUp.jsx'
 import LogInPage from './Components/LogInPage.jsx'
 import Products from './pages/products.jsx'
-import Food from './pages/food.jsx'
-import Drinks from './pages/drinks.jsx'
-import Pastries from './pages/pastries.jsx'
-import IceCream from './pages/iceCream.jsx'
-import SpecialRequest from './pages/specialRequest.jsx'
 import Admin from './pages/admin.jsx'
+import Category from './pages/category.jsx'
+import Cart from './pages/cart.jsx'
+import Productdetailed from './pages/productdetailed.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -29,11 +27,9 @@ createRoot(document.getElementById('root')).render(
        <Route path='/admin' element={<Admin/>}/>
        <Route path='/signup' element={<SignUp />}/>
        <Route path='/login' element={<LogInPage/>} /> 
-       <Route path='/food' element={<Food/>}/>   
-       <Route path='/drinks' element={<Drinks/>}/>   
-       <Route path='/pastries' element={<Pastries/>}/>   
-       <Route path='/iceCream' element={<IceCream/>}/>   
-       <Route path='/specialRequest' element={<SpecialRequest/>}/>   
+       <Route path='/cart' element={<Cart/>} /> 
+       <Route path='/:id' element={<Productdetailed/>} /> 
+       <Route path='/category/:category' element={<Category/>}/>      
     </Route>
   </Routes>
   </BrowserRouter>
